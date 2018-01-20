@@ -1,0 +1,180 @@
+@font: 'Open Sans', sans-serif;
+@ubuntu: 'Ubuntu', sans-serif;
+
+@media (max-width: 1259px) {
+	.wrapper {
+		min-width: 980px;
+		header {
+			padding: 0px;
+			.inner {
+				width: 960px;
+				padding: 0px;
+				min-width: 0px;
+				max-width: none;
+				.social {
+					display: none;
+				}
+				.menu {
+					right: 0px;
+					a {
+						padding: 0px 15px;
+					}
+				}
+			}
+		}
+		.main_content {
+			.section {
+				&.slogan {
+					height: 640px;
+					&:after {
+						height: 240px;
+						width: 2px;
+						margin-left: -1px;
+					}
+					.logo {
+						width: 500px;
+						height: 265px;
+						background-size: 100% auto;
+					}
+					.txt {
+						width: 450px;
+						font: 13px/23px @font;
+					}
+					.url {
+						bottom: 60px;
+						a {
+							height: 48px;
+							border: 1px solid #fff;
+							font: 600 16px/46px @font;
+						}
+					}
+				}
+				&.services {
+					.inner {
+						width: 960px;
+						.title {
+							font: 36px/90px @ubuntu;
+							border-bottom: 2px solid #faa31b;
+						}
+						.block {
+							.item {
+								.bg {
+									width: 230px;
+									background-size: 230px auto !important;
+								}
+								.icon {
+									width: 160px;
+									height: 160px;
+									background-size: 100% !important;
+									left: 260px;
+								}
+								.info {
+									width: 510px;
+								}
+							}
+						}
+					}
+				}
+				&.imps {
+					height: 940px;
+					padding-top: 70px;
+					background-size: auto 100%;
+					.prefers {
+						.title {
+							font: 36px/44px @ubuntu;
+							padding-bottom: 25px;
+							margin-bottom: 35px;
+							&:after {
+								height: 2px;
+							}
+						}
+						.block {
+							width: 960px;
+							.item {
+								font: 16px/22px @font;
+							}
+						}
+					}
+					.differences {
+						.title {
+							font: 36px/44px @ubuntu;
+							margin-bottom: 35px;
+							&:before {
+								height: 2px;
+							}
+							&:after {
+								height: 2px;
+							}
+						}
+						.block {
+							width: 960px;
+							.item {
+								font: 16px/22px @font;
+							}
+						}
+					}
+				}
+				&.projects {
+					.inner {
+						width: 960px;
+						.title {
+							font: 36px/44px @ubuntu;
+							padding-bottom: 25px;
+							margin-bottom: 35px;
+						}
+						.block {
+							.item {
+								.icon {
+									width: 300px;
+									background-size: 100% auto !important;
+								}
+								.info {
+									width: 510px;
+								}
+							}
+						}
+					}
+				}
+				&.team {
+					height: 940px;
+					padding-top: 70px;
+					background-size: auto 100%;
+					.inner {
+						.title {
+							font: 36px/44px @ubuntu;
+							padding-bottom: 25px;
+							margin-bottom: 45px;
+							&:after {
+								height: 2px;
+							}
+						}
+						.block {
+							width: 960px;
+							.item {
+								margin-top: 50px;
+								&:nth-child(-n+3) {
+									margin-top: 0px;
+								}
+								.img {
+									width: 150px;
+									height: 150px;
+									margin-bottom: 20px;
+								}
+								.name {
+									font: 18px/24px @ubuntu;
+									margin-bottom: 10px;
+									span {
+										font: 700 18px/24px @ubuntu;
+									}
+								}
+								.work {
+									font: 300 13px/15px @font;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

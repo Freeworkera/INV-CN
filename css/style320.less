@@ -1,0 +1,241 @@
+@font: 'Open Sans', sans-serif;
+@ubuntu: 'Ubuntu', sans-serif;
+
+@media (max-width: 759px) {
+	.wrapper {
+		min-width: 320px;
+		header {
+			padding: 0px 10px;
+			.inner {
+				width: auto;
+			}
+		}
+		.main_content {
+			.section {
+				&.slogan {
+					padding-top: 40px;
+					padding-bottom: 40px;
+					height: auto;
+					background-size: cover;
+					&:after  {
+						display: none;
+					}
+					.logo {
+						width: 320px;
+						height: 170px;
+						margin: 0px auto;
+						position: static;
+						left: 0px;
+						top: 0px;
+						transform: none;
+						margin-bottom: 40px;
+					}
+					.txt {
+						position: static;
+						left: 0px;
+						top: 0px;
+						margin: 0px;
+						width: auto;
+						transform: none;
+						padding: 0px 10px;
+						position: relative;
+						padding-top: 10px;
+						margin-bottom: 40px;
+						text-align: center;
+						&:before {
+							content: '';
+							display: block;
+							position: absolute;
+							left: 10px;
+							right: 10px;
+							top: 0px;
+							height: 2px;
+							background: #faa31b;
+						}
+					}
+					.url {
+						position: static;
+						top: 0px;
+						left: 0px;
+						transform: none;
+						text-align: center;
+						a {
+							display: inline-block;
+						}
+					}
+				}
+				&.services {
+					.inner {
+						width: auto;
+						padding: 0px 10px;
+						.block {
+							.item {
+								height: auto;
+								padding: 30px 0px;
+								min-height: 200px;
+								.bg {
+									width: 160px;
+									background-size: 160px auto !important;
+								}
+								.icon {
+									display: none;
+								}
+								.info {
+									position: static;
+									left: 0px;
+									top: 0px;
+									width: 100%;
+									padding-left: 180px;
+									transform: none;
+									.name {
+										br {
+											display: none;
+										}
+									}
+								}
+							}
+							@media (max-width: 599px) {
+								.item {
+									padding-top: 200px;
+									.bg {
+										display: none;
+									}
+									.icon {
+										display: block;
+										left: 50%;
+										transform: translateX(-50%);
+										top: 30px;
+									}
+									.info {
+										padding-left: 0px;
+										text-align: center;
+									}
+								}
+							}
+						}
+					}
+				}
+				&.imps {
+					height: auto;
+					padding: 50px 0px;
+					background-size: cover;
+					.prefers {
+						.block {
+							width: auto;
+							.item {
+								width: 50%;
+								margin-top: 30px;
+								&:nth-child(-n+2) {
+									margin-top: 0px;
+								}
+							}
+						}
+					}
+					.differences {
+						.block {
+							width: auto;
+							.item {
+								width: 50%;
+								margin-top: 30px;
+								min-height: 200px;
+								&:nth-child(-n+2) {
+									margin-top: 0px;
+								}
+							}
+						}
+					}
+				}
+				&.projects {
+					.inner {
+						width: auto;
+						padding: 0px 10px;
+						.block {
+							.item {
+								
+								height: auto;
+								padding: 30px 0px;
+								min-height: 200px;
+								padding-top: 200px;
+								.bg {
+									display: none;
+								}
+								.icon {
+									display: block;
+									left: 50%;
+									transform: translateX(-50%);
+									top: 30px;
+									height: 150px;
+									background-size: auto 100% !important;
+								}
+								.info {
+									position: static;
+									left: 0px;
+									top: 0px;
+									width: 100%;
+									padding-left: 0px;
+									text-align: center;
+									transform: none;
+									.name {
+										br {
+											display: none;
+										}
+									}
+
+								}
+							}
+						}
+					}
+				}
+				&.team {
+					height: auto;
+					padding: 50px 0px;
+					background-size: cover;
+					.inner {
+						.block {
+							width: auto;
+							.item {
+								width: 50%;
+								margin-top: 30px;
+								min-height: 200px;
+								&:nth-child(-n+3) {
+									margin-top: 30px;
+								}
+								&:nth-child(-n+2) {
+									margin-top: 0px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		footer {
+			.inner {
+				height: auto;
+				padding: 30px 0px;
+				.logo {
+					position: static;
+					top: 0px;
+					left: 0px;
+					margin: 0px auto;
+					margin-bottom: 20px;
+					height: 60px;
+				}
+				.copy {
+					position: static;
+					left: 0px;
+					top: 0px;
+					margin-bottom: 10px;
+				}
+				.social {
+					position: static;
+					left: 0px;
+					top: 0px;
+					padding-top: 0px;
+					width: 92px;
+					margin: 0px auto;
+				}
+			}
+		}
+	}
+}
